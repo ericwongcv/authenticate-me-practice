@@ -1,0 +1,32 @@
+body {
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba(35, 138, 156, 0), rgb(0, 174, 255));
+}
+
+.form {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+input {
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.column {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
